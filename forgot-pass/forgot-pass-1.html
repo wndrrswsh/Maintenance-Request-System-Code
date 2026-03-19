@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forgot Password 1</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/forgot-pass-1.css" />
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Material Symbols Fonts -->
+    <!-- Outlined style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <!-- Rounded style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
+      rel="stylesheet"
+    />
+    <!-- Sharp style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp"
+      rel="stylesheet"
+    />
+
+    <!-- Google Font: Montserrat (weights 300-700) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Column Number 1 -->
+        <div class="col vh-100" id="col-1">
+          <img src="image/logo.png" alt="" class="pt-4 ps-4 logo" />
+          <div class="col-1-content">
+            <div class="container content">
+              <h3 class="col-1-title">Forgot password</h3>
+              <p class="col-1-subtitle pt-2 pb-2">
+                Please enter your email to reset the password
+              </p>
+              <!-- Form Floating -->
+              <form action="">
+                <div class="form-floating">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                  />
+                  <label for="email">Email address</label>
+                </div>
+              </form>
+            </div>
+
+            <div class="btn-container">
+              <img src="image/progress1.png" alt="" class="prog1" />
+              <a href="forgot-pass-2.html"
+                ><button class="sign-in-btn">Reset Password</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Column Number 2 -->
+        <div class="col vh-100 g-0" id="col-2">
+          <p class="pt-5 ps-5 col-2-title">Reset Your Password</p>
+          <p class="ps-5 col-2-subtitle p-">
+            Enter your email address and we’ll send you a link to create a new
+            password.
+          </p>
+          <img src="image/forgot-pass.png" alt="" class="forgot-pass-img" />
+          <div class="footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

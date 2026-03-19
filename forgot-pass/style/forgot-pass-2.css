@@ -1,0 +1,157 @@
+.body {
+  font-family: "Montserrat";
+  background-color: #ef9c22;
+}
+#col-2 {
+  background-color: #ef9c22;
+}
+
+#col-1 {
+  border-top-right-radius: 70px;
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #0f2b54;
+  height: 50px;
+  right: 0px;
+}
+
+.col-1-content {
+  padding: 100px;
+}
+
+.col-1-title {
+  color: #27282c;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.col-1-subtitle,
+.enter-otp {
+  color: #666666;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.col-1-subtitle span {
+  font-weight: 600;
+}
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  font-weight: 600;
+}
+
+.form-otp {
+  font-size: 13px;
+}
+
+.form-otp input {
+  height: 49px;
+  width: 13%;
+  text-align: center;
+  color: #666666;
+}
+
+.form-floating > .form-control {
+  border-radius: 13px !important;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.next {
+  padding-top: 30%;
+}
+
+.btn-container {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.prog1 {
+  width: 111px;
+  height: 7px;
+  align-self: flex-end;
+  margin-bottom: 14px;
+}
+
+.sign-in-btn {
+  background-color: #3a7ff9;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  width: 144px;
+  height: 49px;
+  color: white;
+}
+
+.forgot-pass-img {
+  padding-left: 80px;
+}
+
+.col-2-title {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.col-2-subtitle {
+  color: white;
+  font-size: 13px;
+}
+
+@media (max-width: 1037px) {
+  #col-2,
+  .prog1 {
+    display: none;
+  }
+  .body {
+    background-color: white;
+  }
+  .btn-container {
+    position: relative;
+    margin-top: 160px;
+    justify-content: space-between;
+  }
+  .sign-in-btn {
+    position: absolute;
+    right: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-1-content {
+    padding: 40px;
+  }
+  .form-otp input {
+    height: 49px;
+    width: 18%;
+    text-align: center;
+    color: #666666;
+  }
+  .back-btn {
+    width: 60px; /* set width */
+    height: 60px; /* set height */
+  }
+
+  .col-1-subtitle {
+    display: none;
+  }
+}
+
+.enter-otp span {
+  font-weight: 600;
+}
+
+.resend-email {
+  color: #666666;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.content {
+  height: 250px;
+}

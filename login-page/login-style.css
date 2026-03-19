@@ -1,0 +1,178 @@
+.body {
+  background-color: #ef9c22;
+  font-family: "Montserrat";
+}
+
+.white-bg {
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  border-top-left-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+  .body {
+    background: white;
+  }
+}
+
+.signin-content-desktop {
+  padding: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-sub {
+  color: #666666;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.signin-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* input design */
+
+input {
+  border-radius: 10px !important;
+  border: 1px solid #dcdcdc;
+  padding: 10px;
+  height: 49px;
+  width: 325px;
+}
+
+/* kapag mag input na ng data */
+input:focus {
+  border-color: #3a7ff9;
+  outline: none;
+  font-size: 13px;
+}
+
+.input-box {
+  position: relative;
+  font-size: 13px;
+  margin-bottom: px;
+}
+
+.input-box label {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  background: white;
+  padding: 0 5px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.input-box input:focus + label,
+.input-box input:not(:placeholder-shown) + label {
+  font-size: 12px;
+  color: #3a7ff9; /* new color on focus/input */
+  background: white;
+}
+
+input {
+  width: 325px;
+  margin: auto;
+}
+
+/* input design */
+
+.forgot-pass,
+.no-acc {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #959595;
+}
+
+.sign-in-btn {
+  background-color: #3a7ff9;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  width: 325px;
+  height: 49px;
+  color: white;
+  cursor: pointer;
+  -webkit-appearance: none; /* Safari reset */
+  -moz-appearance: none; /* Firefox reset */
+  appearance: none;
+}
+
+.sign-up {
+  color: #0f2b54;
+}
+
+/* Tools*/
+.container {
+  position: relative;
+  width: 300px;
+  position: fixed;
+}
+
+.overlay {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 550px;
+}
+
+@media (max-width: 1044px) {
+  .overlay {
+    top: 130px;
+    width: 350px;
+  }
+}
+
+.get-started {
+  font-size: 30px;
+}
+
+.enter-data {
+  font-size: 13px;
+}
+
+.footer-container {
+  position: relative;
+  width: 300px;
+  position: fixed;
+}
+
+.blue-overlay {
+  position: absolute;
+  top: 596px;
+  left: 0px;
+  width: 596px;
+  height: 37px;
+  background-color: #0f2b54;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.blue-overlay-fill {
+  position: absolute;
+  top: 565px;
+  left: 470px;
+  width: 51px;
+  height: 21px;
+  background-color: #0f2b54;
+  border-radius: 30px;
+}
+
+.blue-overlay-outline {
+  position: absolute;
+  top: 550px;
+  left: 530px;
+  width: 51px;
+  height: 21px;
+  border: 1px solid #0f2b54;
+  border-radius: 30px;
+}

@@ -1,0 +1,53 @@
+📘 **BOOTSTRAP & CSS NOTES**
+
+---
+
+ 🔹 Bootstrap Utility Classes
+
+**Border & Text**
+
+* `rounded-1` → small border radius
+* `text-muted` → muted/lighter text
+* `text-nowrap` → prevents text wrapping
+
+---
+
+🔹 Display (Responsive Visibility)
+
+* `d-none` → hide element
+* `d-md-block` → visible on tablet & desktop only
+* `d-md-none` → visible on mobile only
+
+**Examples:**
+
+* `d-none d-md-block` → hidden on mobile, visible on desktop
+* `d-md-none` → mobile only
+
+---
+
+🔹 Background Styling Example
+
+.body {
+height: 100vh;
+width: 100%;
+background-image: url("image/desktop-bg.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+---
+
+🔹 Font Weights
+
+* Regular → 400
+* Semi-Bold → 600
+
+---
+
+🔹 Layout Tip
+
+* `g-0` → removes spacing (gutters)
+  ✔ apply to `.row` or `.col`
+
+---

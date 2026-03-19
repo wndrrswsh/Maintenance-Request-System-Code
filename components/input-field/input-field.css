@@ -1,0 +1,52 @@
+/* Global font - add this for Montserrat font */
+.body {
+  font-family: "Montserrat"; /* use Montserrat font */
+}
+
+/* Input field design - basic style */
+input {
+  border-radius: 10px !important;
+  border: 1px solid gray;
+  padding: 10px;
+  width: 325px; /* fixed width */
+  margin: auto;
+}
+
+/* Input focus state - when user types */
+input:focus {
+  border-color: #3a7ff9;
+  outline: none; /* remove default outline */
+}
+
+/* Floating label container */
+.input-box {
+  position: relative;
+}
+
+/* Floating label style */
+.input-box label {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  background: white;
+  padding: 0 5px;
+  font-size: 12px;
+}
+
+/* Floating label animation - moves up on focus/input */
+.input-box input:focus + label,
+.input-box input:not(:placeholder-shown) + label {
+  font-size: 12px;
+  color: #3a7ff9; /* color changes on focus/input */
+  background: white;
+}
+
+.input-icon {
+  position: absolute;
+  right: 10px;
+  top: 65%;
+  transform: translateY(-50%);
+  color: #616163;
+  pointer-events: none; /* para hindi maka-click ang icon */
+  user-select: none; /* para hindi ma-select yung icon */
+}
